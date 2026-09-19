@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="pulse-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0" />
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <style>
+      .bg-grid { stroke: #334155; stroke-opacity: 0.25; stroke-width: 1; }
+      .pulse-wave { stroke: #38bdf8; stroke-width: 3; fill: none; filter: url(#glow); }
+      .floating-node { fill: #06b6d4; animation: float 4s ease-in-out infinite alternate; }
+      @keyframes pulseMove {
+        0% { stroke-dashoffset: 1200; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .ecg-line {
+        stroke: #22d3ee;
+        stroke-width: 2.5;
+        fill: none;
+        stroke-dasharray: 1200;
+        stroke-dashoffset: 1200;
+        animation: pulseMove 3s linear infinite;
+        opacity: 0.7;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" fill="url(#bg)" rx="16" />
+
+  <!-- Dynamic Grid Background -->
+  <path d="M0 40 H1200 M0 80 H1200 M0 120 H1200 M0 160 H1200 M0 200 H1200 M0 240 H1200 M0 280 H1200" class="bg-grid" />
+  <path d="M100 0 V320 M200 0 V320 M300 0 V320 M400 0 V320 M500 0 V320 M600 0 V320 M700 0 V320 M800 0 V320 M900 0 V320 M1000 0 V320 M1100 0 V320" class="bg-grid" />
+
+  <!-- Dynamic Animated Pulse Line (Behind Text) -->
+  <path d="M0 220 L350 220 L370 190 L390 260 L410 140 L430 240 L450 210 L470 220 L1200 220" class="ecg-line" />
+
+  <!-- Medical Cross Graphic Icon (Background Accent) -->
+  <g transform="translate(1000, 70)" opacity="0.15">
+    <rect x="40" y="0" width="40" height="120" rx="8" fill="#38bdf8" />
+    <rect x="0" y="40" width="120" height="40" rx="8" fill="#38bdf8" />
+  </g>
+
+  <!-- Foreground Title and Subtitle -->
+  <g text-anchor="middle">
+    <!-- Main Title -->
+    <text x="600" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="42" fill="url(#text-grad)" letter-spacing="0.5">
+      Awesome Medical Device Quality Management
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="175" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="500" font-size="20" fill="#94a3b8" letter-spacing="0.2">
+      Curated Ecosystem for eQMS, ISO 13485, FDA QMSR (21 CFR 820) &amp; Design Controls
+    </text>
+
+    <!-- Tech Badges inside Banner -->
+    <g transform="translate(600, 240)">
+      <rect x="-240" y="-18" width="130" height="30" rx="15" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+      <text x="-175" y="2" font-family="sans-serif" font-size="12" font-weight="600" fill="#38bdf8" text-anchor="middle">eQMS SaaS</text>
+
+      <rect x="-90" y="-18" width="180" height="30" rx="15" fill="#1e293b" stroke="#818cf8" stroke-width="1.5" />
+      <text x="0" y="2" font-family="sans-serif" font-size="12" font-weight="600" fill="#818cf8" text-anchor="middle">ISO 13485 / FDA QMSR</text>
+
+      <rect x="105" y="-18" width="140" height="30" rx="15" fill="#1e293b" stroke="#c084fc" stroke-width="1.5" />
+      <text x="175" y="2" font-family="sans-serif" font-size="12" font-weight="600" fill="#c084fc" text-anchor="middle">Open-Source QMS</text>
+    </g>
+  </g>
+</svg>
