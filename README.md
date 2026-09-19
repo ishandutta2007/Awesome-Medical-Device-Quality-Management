@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Medical-Device-Quality-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Medical-Device-Quality-Management?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Medical-Device-Quality-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Medical-Device-Quality-Management?style=flat-square&logo=github" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Medical-Device-Quality-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Medical-Device-Quality-Management?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
@@ -69,9 +69,9 @@ The global **Enterprise Quality Management Software (EQMS)** market size is esti
 
 *Note: While open-source frameworks and templates provide great documentation discipline, fully compliant FDA/ISO medical device eQMS platforms require strict validation, electronic signatures (21 CFR Part 11), and audit trail controls.*
 
-### ⭐ Open-Source Projects Sorted by GitHub Stars
+### ⭐ Open-Source Projects Sorted by GitHub_Stars
 
-| Project / Repository 📦 | GitHub Star Count 🌟 | License 📜 | Description & Use Case 💡 |
+| Project / Repository 📦 | GitHub Stars_Count 🌟 | License 📜 | Description & Use Case 💡 |
 | :--- | :--- | :--- | :--- |
 | **[Odoo Quality Modules](https://github.com/odoo/odoo)** | [![Stars](https://img.shields.io/github/stars/odoo/odoo?style=social&color=white)](https://github.com/odoo/odoo/stargazers) | LGPL-3.0 | Enterprise open-source ERP with quality inspection, non-conformance, and audit tracking modules. |
 | **[ERPNext Quality Features](https://github.com/frappe/erpnext)** | [![Stars](https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white)](https://github.com/frappe/erpnext/stargazers) | GPL-3.0 | Open-source ERP framework featuring quality inspection, procedure logging, and inventory control. |
