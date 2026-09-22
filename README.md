@@ -62,6 +62,7 @@ The global **Enterprise Quality Management Software (EQMS)** market size is esti
 | **[QT9 QMS](https://qt9software.com/)** | **~$10M Annual Revenue**<br>(Private / Bootstrapped) | Starts at **~$2,200 / user / year** (anchor estimate) | **Free Trial Available** (full-featured free trial provided) | Modular cloud QMS offering document control, CAPA, audits, calibration, and training management. |
 | **[ComplianceQuest](https://www.compliancequest.com/)** | **~$10M Annual Revenue**<br>(Built on Salesforce) | Custom Quote (per user / module pricing) | **No Free Trial** (personalized demo on request) | Salesforce-native eQMS leveraging AI for document management, CAPA, and supplier quality. |
 | **[Qualtrax](https://www.qualtrax.com/)** | **~$8M Annual Revenue**<br>(Ideagen Group) | Custom Quote (based on user licenses) | **No Free Trial** (custom demo & evaluation available) | Compliance and document control software specialized for testing laboratories and quality audits. |
+| **[Allowly](https://allowly.ai/use-cases/gxp-ai-agent-controls/)** | Private company; revenue/valuation not public | Free; paid plans from **$9/month** | Free plan: **1 active item and 1,000 lifetime decisions** | Policy checks before consequential AI-agent actions and signed records for submitted decisions; customer systems enforce results and validate intended use. Not a full eQMS. |
 
 ---
 
@@ -132,4 +133,3 @@ If you find this ecosystem list helpful for your regulatory, quality compliance,
   <b>Made with ❤️ for Quality, Regulatory, and MedTech Engineering Teams.</b><br>
   <i>Keeping medical device quality rigorous, traceable, and audit-ready.</i>
 </p>
-
